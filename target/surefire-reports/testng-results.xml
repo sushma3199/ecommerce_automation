@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T23:35:03 IST" name="Suite" finished-at="2026-02-04T23:35:10 IST" duration-ms="7275">
+    <groups>
+      <group name="regression">
+        <method signature="TC1_account_registration.verify_account_registration()[pri:0, instance:testCases.TC1_account_registration@3d2ee678]" name="verify_account_registration" class="testCases.TC1_account_registration"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC1_account_registration.verify_account_registration()[pri:0, instance:testCases.TC1_account_registration@3d2ee678]" name="verify_account_registration" class="testCases.TC1_account_registration"/>
+        <method signature="TC2_Login.login()[pri:0, instance:testCases.TC2_Login@2d6764b2]" name="login" class="testCases.TC2_Login"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-02-04T23:35:03 IST" name="Test" finished-at="2026-02-04T23:35:10 IST" duration-ms="7275">
+      <class name="testCases.TC1_account_registration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC1_account_registration@3d2ee678]" started-at="2026-02-04T23:35:03 IST" name="setup" finished-at="2026-02-04T23:35:05 IST" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC1_account_registration@3d2ee678]" started-at="2026-02-04T23:35:05 IST" name="verify_account_registration" finished-at="2026-02-04T23:35:08 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC1_account_registration@3d2ee678]" started-at="2026-02-04T23:35:08 IST" name="closeBrowser" finished-at="2026-02-04T23:35:08 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC1_account_registration -->
+      <class name="testCases.TC2_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC2_Login@2d6764b2]" started-at="2026-02-04T23:35:08 IST" name="setup" finished-at="2026-02-04T23:35:09 IST" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testCases.TC2_Login@2d6764b2]" started-at="2026-02-04T23:35:09 IST" name="login" finished-at="2026-02-04T23:35:10 IST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC2_Login@2d6764b2]" started-at="2026-02-04T23:35:10 IST" name="closeBrowser" finished-at="2026-02-04T23:35:10 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC2_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
